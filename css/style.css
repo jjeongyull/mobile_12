@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-container{
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 250px;
+}
+.header{
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f5da34;
+}
+.btn-header{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-header .header-deco{
+  display: block;
+  padding-bottom: 4px;
+}
+.main{
+  width: 100%;
+  padding: 30px 20px;
+  padding-bottom: 0;
+}
+.main-h2{
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.main-text-list{
+  width: 100%;
+}
+.main-text-list li{
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.main-text-list li.first{
+  border-bottom: 1px solid #cfcfcf;
+}
+.main-text-list li.last{
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+.list-p{
+  text-align: center;
+  line-height: 1.3;
+  font-size: 14px;
+  font-weight: 600;
+}
+.list-p span{
+  background-color: #f5da34;
+}
+.main-text-list .number{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #ff8400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-img{
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 20px;
+}
+.main-sang-p{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.find-num-input{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #cfcfcf;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.find-num-input:focus{
+  outline: none;
+}
+.main-info-p{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.btn-sang-search{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  width: 100%;
+  display: block;
+  border: none;
+  background-color: #f5da34;
+  padding: 20px 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
